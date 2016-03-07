@@ -1,0 +1,16 @@
+//this is the main sass file
+html,
+body {
+    padding: 1px;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+
+
+@import '_gradient/gradient';
