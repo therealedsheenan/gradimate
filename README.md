@@ -1,0 +1,2 @@
+# gradimate
+Gradient animation samples
