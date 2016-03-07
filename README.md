@@ -1,5 +1,5 @@
 # gradimate
-A Gradient animation samples using css animations.
+A Library for create gradient animations.
 
 ##Installation
 
