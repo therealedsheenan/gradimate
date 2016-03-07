@@ -1,0 +1,30 @@
+{
+  "name": "gradimate",
+  "version": "1.0.0",
+  "description": "Gradient animation samples",
+  "main": "index.js",
+  "scripts": {
+    "prod:style": "sass _src/styles/main.scss public/styles/style.css",
+    "dev:style": "sass --watch _src/styles/main.scss:public/styles/style.css",
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealedsheenan/gradimate.git"
+  },
+  "keywords": [
+    "gradient",
+    "animation",
+    "gradient",
+    "animation",
+    "collection",
+    "gradimate"
+  ],
+  "author": "Sheenan Tenepre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealedsheenan/gradimate/issues"
+  },
+  "homepage": "https://github.com/therealedsheenan/gradimate#readme"
+}
