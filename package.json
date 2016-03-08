@@ -4,10 +4,8 @@
   "description": "Gradient animation samples",
   "main": "index.js",
   "scripts": {
-    "prod:style": "sass _src/styles/main.scss public/styles/style.css",
-    "dev:style": "sass --watch _src/styles/main.scss:public/styles/style.css",
-    "start": "serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -28,14 +26,18 @@
   },
   "homepage": "https://github.com/therealedsheenan/gradimate#readme",
   "dependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.6.5",
-    "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
-    "loader-utils": "^0.2.12",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "html-webpack-plugin": "^2.7.1",
+    "node-sass": "^3.4.2",
+    "path": "^0.12.7",
+    "sass-loader": "^3.1.2",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   }
