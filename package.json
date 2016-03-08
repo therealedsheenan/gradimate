@@ -15,16 +15,28 @@
   },
   "keywords": [
     "gradient",
-    "animation",
-    "gradient",
-    "animation",
-    "collection",
-    "gradimate"
+    "gradient animation",
+    "gradient collection",
+    "gradimate library",
+    "gradient library",
+    "gradient animation mini library"
   ],
   "author": "Sheenan Tenepre",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/therealedsheenan/gradimate/issues"
   },
-  "homepage": "https://github.com/therealedsheenan/gradimate#readme"
+  "homepage": "https://github.com/therealedsheenan/gradimate#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "loader-utils": "^0.2.12",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
