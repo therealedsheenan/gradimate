@@ -15,6 +15,9 @@ serve directory:
 
     npm run start
 
+###Browser support
+This supports major browsers. See [here](http://caniuse.com/#search=linear-gradient) for more information.
+
 ###Information
 - This is inspired by a post from an Anonymous user. See the link [here](https://gist.github.com/anonymous/524216938c26d7ce4f0e)
 - This repository will be working on creating a library for making gradient animations
